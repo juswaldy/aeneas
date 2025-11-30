@@ -152,6 +152,9 @@ class ESPEAKTTSWrapper(BaseTTSWrapper):
     HYE = Language.HYE
     """ Armenian (not tested) """
 
+    HEB = Language.HEB
+    """ Hebrew """
+
     IND = Language.IND
     """ Indonesian (not tested) """
 
@@ -372,6 +375,9 @@ class ESPEAKTTSWrapper(BaseTTSWrapper):
     HI = "hi"
     """ Hindi (not tested) """
 
+    HE = "he"
+    """ Hebrew """
+
     HR = "hr"
     """ Croatian """
 
@@ -517,6 +523,7 @@ class ESPEAKTTSWrapper(BaseTTSWrapper):
         FRA: u"French",
         GLE: u"Irish",
         GRC: u"Greek (Ancient)",
+        HEB: u"Hebrew",
         HIN: u"Hindi (not tested)",
         HRV: u"Croatian",
         HUN: u"Hungarian",
@@ -592,6 +599,7 @@ class ESPEAKTTSWrapper(BaseTTSWrapper):
         FR_BE: u"French (Belgium) (not tested)",
         FR_FR: u"French (France)",
         GA: u"Irish",
+        HE: u"Hebrew",
         HI: u"Hindi (not tested)",
         HR: u"Croatian",
         HU: u"Hungarian",
@@ -667,6 +675,7 @@ class ESPEAKTTSWrapper(BaseTTSWrapper):
         FR_FR: "fr-fr",
         GA: "ga",
         # COMMENTED GRC: "grc",
+        HE: "he",
         HI: "hi",
         HR: "hr",
         HU: "hu",
@@ -728,6 +737,7 @@ class ESPEAKTTSWrapper(BaseTTSWrapper):
         FRA: "fr",
         GLE: "ga",
         GRC: "grc",
+        HEB: "he",
         HIN: "hi",
         HRV: "hr",
         HUN: "hu",

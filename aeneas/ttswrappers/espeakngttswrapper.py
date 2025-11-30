@@ -168,6 +168,9 @@ class ESPEAKNGTTSWrapper(BaseTTSWrapper):
     HYE = Language.HYE
     """ Armenian (not tested) """
 
+    HEB = Language.HEB
+    """ Hebrew """
+
     INA = Language.INA
     """ Interlingua (not tested) """
 
@@ -460,6 +463,9 @@ class ESPEAKNGTTSWrapper(BaseTTSWrapper):
     HI = "hi"
     """ Hindi (not tested) """
 
+    HE = "he"
+    """ Hebrew """
+
     HR = "hr"
     """ Croatian """
 
@@ -658,6 +664,7 @@ class ESPEAKNGTTSWrapper(BaseTTSWrapper):
         GRC: u"Greek (Ancient)",
         GRN: u"Guarani (not tested)",
         GUJ: u"Gujarati (not tested)",
+        HEB: u"Hebrew",
         HIN: u"Hindi (not tested)",
         HRV: u"Croatian",
         HUN: u"Hungarian",
@@ -757,6 +764,7 @@ class ESPEAKNGTTSWrapper(BaseTTSWrapper):
         GD: u"Scottish Gaelic (not tested)",
         GN: u"Guarani (not tested)",
         GU: u"Gujarati (not tested)",
+        HE: u"Hebrew",
         HI: u"Hindi (not tested)",
         HR: u"Croatian",
         HU: u"Hungarian",
@@ -855,6 +863,7 @@ class ESPEAKNGTTSWrapper(BaseTTSWrapper):
         # COMMENTED GRC: "grc",
         GN: "gn",
         GU: "gu",
+        HE: "he",
         HI: "hi",
         HR: "hr",
         HU: "hu",
@@ -939,6 +948,7 @@ class ESPEAKNGTTSWrapper(BaseTTSWrapper):
         GRC: "grc",
         GRN: "gn",
         GUJ: "gu",
+        HEB: "he",
         HIN: "hi",
         HRV: "hr",
         HUN: "hu",
